@@ -28,7 +28,7 @@ app.use('/api/bookings', require('./routes/bookings'));
 
 // Health check
 app.get('/api/health', (req, res) => {
-  res.json({ success: true, message: 'SkyReserve API is running!' });
+  res.json({ success: true, message: 'Aerolink API is running!' });
 });
 
 // 404 handler
@@ -42,6 +42,6 @@ app.use(errorHandler);
 // Start server
 const PORT = process.env.PORT || 5000;
 app.listen(PORT, () => {
-  console.log(`\n🚀 SkyReserve API Server running on http://localhost:${PORT}`);
+  console.log(`\n🚀 Aerolink API Server running on http://localhost:${PORT}`);
   console.log(`📋 Health check: http://localhost:${PORT}/api/health\n`);
 });

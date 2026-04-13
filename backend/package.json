@@ -1,7 +1,7 @@
 {
-  "name": "skyreserve-backend",
+  "name": "aerolink-backend",
   "version": "1.0.0",
-  "description": "SkyReserve Flight Booking System - Backend API",
+  "description": "Aerolink Flight Booking System - Backend API",
   "main": "server.js",
   "scripts": {
     "start": "node server.js",

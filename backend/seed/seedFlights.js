@@ -10,7 +10,7 @@ const Flight = require('../models/Flight');
 const sampleFlights = [
   {
     flightNumber: 'SK101',
-    airline: 'SkyReserve Airlines',
+    airline: 'Aerolink Airlines',
     source: 'NEW DELHI',
     destination: 'MUMBAI',
     departureTime: new Date('2026-05-15T06:00:00Z'),
@@ -20,7 +20,7 @@ const sampleFlights = [
   },
   {
     flightNumber: 'SK202',
-    airline: 'SkyReserve Airlines',
+    airline: 'Aerolink Airlines',
     source: 'MUMBAI',
     destination: 'BANGALORE',
     departureTime: new Date('2026-05-15T09:30:00Z'),
@@ -60,7 +60,7 @@ const sampleFlights = [
   },
   {
     flightNumber: 'SK606',
-    airline: 'SkyReserve Airlines',
+    airline: 'Aerolink Airlines',
     source: 'CHENNAI',
     destination: 'KOLKATA',
     departureTime: new Date('2026-05-16T08:00:00Z'),
@@ -100,7 +100,7 @@ const sampleFlights = [
   },
   {
     flightNumber: 'SK110',
-    airline: 'SkyReserve Airlines',
+    airline: 'Aerolink Airlines',
     source: 'PUNE',
     destination: 'NEW DELHI',
     departureTime: new Date('2026-05-15T05:30:00Z'),
